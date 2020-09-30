@@ -29,7 +29,7 @@ def about(request):
 def add_stock(request):
 	import requests
 	import json
-	# API Token = pk_cff99cb91eb14bb3a40dd197d42c56ba
+	
 	api_key = "pk_cff99cb91eb14bb3a40dd197d42c56ba"
 
 	if request.method == 'POST':
